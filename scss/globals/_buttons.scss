@@ -1,0 +1,30 @@
+.button,
+.btn {
+  display: inline-block;
+  border: 0;
+  color: var(--color-white);
+  text-decoration: none;
+  text-align: center;
+  background: var(--color-black);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: -0.16px;
+  padding: 1.3rem 4.7rem;
+  outline: 2px solid transparent;
+  min-width: 15rem;
+  border-radius: 50px;
+
+  &:hover,
+  &:focus {
+    outline: 2px solid var(--color-black);
+    color: var(--color-black);
+    background: transparent;
+  }
+}
+
+.button-red {
+}
+.hollow-red {
+}

@@ -1,0 +1,6 @@
+[data-target] {
+    display: none;
+  }
+  [data-target].active {
+    display: block;
+  }

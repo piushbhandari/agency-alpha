@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  max-width: $container-default;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: $container-gutter;
+  padding-right: $container-gutter;
+}
+.container--small {
+  max-width: $container-small;
+}
+.container--medium {
+  max-width: $container-medium;
+}
+.container--large {
+  max-width: $container-large;
+}
+.container--full {
+  max-width: 100%;
+  padding: 0;
+}
